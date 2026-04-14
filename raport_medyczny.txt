@@ -1,0 +1,58 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║              RAPORT KOŃCOWY ANALIZY MEDYCZNEJ                    ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📅 Data raportu: 2026-03-18 10:42:58
+🔧 Tryb analizy: PODSTAWOWA
+======================================================================
+
+📊 PODSUMOWANIE DANYCH:
+────────────────────────────────────────────────────────────────────
+  • 🏥 Przyjęci do szpitala: 82 pacjentów
+  • 🏠 Wypisani do domu: 71 pacjentów
+  • 👥 Łącznie: 153 pacjentów
+
+📈 ISTOTNOŚĆ STATYSTYCZNA:
+────────────────────────────────────────────────────────────────────
+  • Parametry istotne (p < 0.05): 8
+  • Parametry wysoce istotne (p < 0.001): 5
+
+🔬 TOP 5 NAJBARDZIEJ ISTOTNYCH RÓŻNIC:
+────────────────────────────────────────────────────────────────────
+
+  1. CRP, mg/dL               
+     p = 0.000000 ***
+     ⬆️ WYŻSZE u przyjętych (różnica: +5.88)
+
+  2. Troponina I              
+     p = 0.000010 ***
+     ⬆️ WYŻSZE u przyjętych (różnica: +654.99)
+
+  3. Saturacja, %             
+     p = 0.000010 ***
+     ⬇️ NIŻSZE u przyjętych (różnica: -2.65)
+
+  4. Hemoglobina, g/dL        
+     p = 0.000016 ***
+     ⬇️ NIŻSZE u przyjętych (różnica: -1.91)
+
+  5. Hematokryt, %            
+     p = 0.000094 ***
+     ⬇️ NIŻSZE u przyjętych (różnica: -4.91)
+
+======================================================================
+🧮 KALKULATOR HOSPITALIZACJI:
+────────────────────────────────────────────────────────────────────
+Model gotowy.
+• complete-case do modelu: n = 123
+• liczba cech: 7
+• cechy: Wiek, lata, Saturacja, %, log(CRP), log(kreatynina), Średnie ciśnienie tętnicze, mmHg, log(troponina I), Hemoglobina, g/dL
+• AUC na całej kohorcie treningowej: 0.885
+• CV AUC: 0.835 ± 0.085
+• Model oparty wyłącznie na Twojej bazie
+
+======================================================================
+✅ ANALIZA ZAKOŃCZONA POMYŚLNIE
+======================================================================
+

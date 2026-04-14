@@ -1,0 +1,25 @@
+WYNIKI
+
+Do analizy włączono łącznie 153 pacjentów, w tym 82 hospitalizowanych oraz 71 wypisanych do domu.
+
+W analizie jednoczynnikowej po korekcji FDR istotne różnice obserwowano dla:
+- CRP, mg/dL (p_FDR=0.0000, Cliff's d=0.53).
+- Troponina I (p_FDR=0.0000, Cliff's d=0.46).
+- Saturacja, % (p_FDR=0.0000, Cliff's d=-0.41).
+- Hemoglobina, g/dL (p_FDR=0.0001, Cliff's d=-0.41).
+- Hematokryt, % (p_FDR=0.0003, Cliff's d=-0.37).
+
+W modelu wieloczynnikowym niezależnie z hospitalizacją związane były:
+- Saturacja, % (OR 0.63; 95% CI 0.48-0.82; p=0.0006), co wiązało się z mniejszym prawdopodobieństwem hospitalizacji.
+- Hemoglobina, g/dL (OR 0.69; 95% CI 0.54-0.89; p=0.0041), co wiązało się z mniejszym prawdopodobieństwem hospitalizacji.
+- log(CRP) (OR 1.82; 95% CI 1.06-3.13; p=0.0305), co wiązało się z większym prawdopodobieństwem hospitalizacji.
+- log(troponina I) (OR 1.59; 95% CI 1.10-2.31; p=0.0144), co wiązało się z większym prawdopodobieństwem hospitalizacji.
+
+Model predykcyjny osiągnął AUC 0.932 (95% CI 0.841-0.997) oraz Brier score 0.1095.
+
+OGRANICZENIA
+
+- Analiza modeli wieloczynnikowych była oparta na complete-case analysis.
+- Progi kliniczne mają charakter eksploracyjny i wymagają walidacji zewnętrznej.
+- Regresja logistyczna zakłada liniowość efektów na skali logit.
+- Model główny miał ograniczone EPV, dlatego wyniki należy interpretować ostrożnie.
